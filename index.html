@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <!-- <script src="libraries/p5.sound.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <style>
+      .dontSelect{
+            /* Firefox */
+            -moz-user-select: none;
+            /* Chrome */
+            -webkit-user-select: none;
+            user-select: none;
+      }
+  </style>
+  <bod class="dontSelect">
+    <h2>This is a heading</h2>
+
+    
+    <div id="forceState">施力狀態</div>
+
+    <section id="printArea">print area</section>
+    
+    
+    <button>Toggle Canvas</button>
+    <p id="counter">時間戳記</p>
+    <script src="https://artwang27.github.io/TextToJSON/js/tools.js"></script>
+    <script src="js/stateMachine.js"></script>
+    <script src="js/gameState.js"></script>
+    <script src="js/myState.js"></script>
+    <script src="js/game.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
